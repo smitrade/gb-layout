@@ -1,0 +1,21 @@
+@mixin w-content{
+    width: $desktop-content;
+    margin: 0 auto;
+}
+@mixin w-content-padding{
+    width: $desktop-content;
+    margin: 0 auto;
+    padding: 0 230px 0 230px;
+}
+@mixin flex-ac{
+    display: flex;
+    align-items: center;
+}
+@mixin flex-sb-ac{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+@mixin display-none{
+    display: none;
+}

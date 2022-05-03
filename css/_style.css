@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+p { 
+    margin: 0;
+}
+.container__menu {
+    visibility: hidden;
+} 
+.container__block1-left {
+    background-image: url(../img/bgPhoto/manJacket.jpg);
+    background-size: cover;
+}
+.container__block1-right {
+    background-color: #F1E4E6;
+    display: flex;
+    align-items: center;
+}
+.colored {
+    color: #F16D7F;
+}
+.container__menu-list{
+    list-style: none;
+    margin: 0;
+}
+.container__menu-list-item a{
+    text-decoration: none;
+    color: #6F6E6E;
+}
+.container__block2-item1{
+    background: url(../img/bgPhoto/forWomen.jpg);
+    background-size: cover; 
+}
+.container__block2-item2{
+    background: url(../img/bgPhoto/forMen.jpg);
+    background-size: cover;
+}
+.container__block2-item3{
+    background: url(../img/bgPhoto/forKids.jpg);
+    background-size: cover;
+}
+.container__block2-item4{
+    background: url(../img/bgPhoto/accessories.jpg);
+    background-size: cover;
+}
+.container__block2-item-text1{
+    margin: 0;
+    color: #FFFFFF;
+}
+.container__block2-item-textbox{
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.container__block3-text1{
+    font-size: 30px;
+}
+.container__block4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container__block4-item{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background: #F8F8F8;
+}
+.container__block4-item2-image{
+    background: #F7E4E2;
+    text-align:center;
+}
+.container__block4-item-overlay{
+    background: rgba(58, 56, 56, 0.86);
+    visibility: hidden;
+}
+.container__block4-item-overlay-cart{
+    border: 1px solid #FFFFFF;
+    display:flex;    
+}
+.footer{
+    background: #222224;
+}
+.footer__block1-item{
+    color: #FBFBFB;
+}
+.footer__block2{
+    background-image: url(../img/bgPhoto/subscribe.jpg);
+}
+.footer__block2-overlay{
+    background: rgba(244, 244, 244, 0.7);
+}
+.footer__block2-button-send{
+    border: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: #FFFFFF;
+    background-color: #F16D7F;
+}
+.footer__block2-button-text{
+    border: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.footer__block3{
+    background: #222224;
+}
+.footer__block3-text{
+    color: #FBFBFB;
+    font-size: 16px;
+}

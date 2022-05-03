@@ -1,0 +1,37 @@
+.header{
+    @include flex-sb-ac;
+    width: $desktop-content;
+    position: absolute;
+    top: 0px;
+    background-color: #222222;
+    height: 75px;
+    padding: 0 230px 0 230px;
+}
+.header__title{
+    @include display-none;
+}
+.header__search {
+    margin-left: 41px;
+}
+.header__list{
+    @include flex-sb-ac;
+}
+.header__list-item{
+    margin-left: 33px;
+}
+.header__cart{
+    position: relative;
+}
+.header__cart-count{
+    position:absolute;
+    font-size: 12px;
+    width: 1.6em;
+    height: 1.6em;
+    top: -5px;
+    right: -10px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 19px;
+    background: #F16D7F;
+    color: #FFFFFF;
+}

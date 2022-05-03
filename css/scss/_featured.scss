@@ -1,0 +1,101 @@
+.featured{
+    @include flex-sb-ac;
+    @include w-content;    
+    flex-direction: column;
+}
+.featured__title{
+    margin-top: 96px;
+    font-size: 30px;
+}
+.featured__text{
+    color: $grey;
+}
+.featured__list{
+    padding: 0px;
+    @include flex-sb-ac;
+    flex-wrap: wrap;
+
+}
+.featured__list-sublist{
+    padding: 0 29px 0 18px;
+
+}
+.featured__list-item{
+    position: relative;
+    @include flex-ac;
+    justify-content: center;
+    width: 360px;
+    flex-direction: column;    
+    background: #F8F8F8;
+    margin-top: 30px;
+}
+.featured__list-text{
+    text-align: left;
+}
+.featured__list-text:nth-child(3n-2){
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 13px;
+}
+.featured__list-text:nth-child(3n-1){
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 18px;
+}
+.featured__list-text:nth-child(3n){
+    font-size: 16px;
+    line-height: 19px;
+    color: $pink;
+    margin-bottom: 20px;
+}
+
+.featured__list-image{
+    width: 360px;
+    height: 420px;
+    background-color: #F7E4E2;
+}
+.featured__list-image-png{
+    padding-top: 9px;
+}
+.featured__list-overlay{
+    @include flex-ac;
+    position:absolute;
+    top: 0;
+    width:inherit;
+    height: 420px;
+    color: $white;
+    background: rgba(58, 56, 56, 0.86); 
+    justify-content: space-around;
+    visibility: hidden;
+}
+.featured__list-cart{
+    width: 138px;
+    @include flex-ac;
+    border: 1px solid #FFFFFF;
+    line-height: 43px;   
+    padding-left: 13px;
+}
+.featured__list-cart-text{
+    margin-left: 11px;
+}
+.featured__list-item:hover .featured__list-overlay{
+    visibility: visible;
+}
+.featured__list-browse{
+    width: 211px;
+    line-height: 47px;
+    text-align: center;
+    border: 1px solid #FF6A6A;
+    font-size: 16px;
+    color: #F26376;
+    text-decoration: none;
+    margin: 63px auto 109px auto;
+    &:hover{
+        color: #FFFFFF;
+        background-color: #F16D7F;
+    }
+}
+.featured__list-item a{
+    width: inherit;
+}
