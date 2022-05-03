@@ -1,0 +1,50 @@
+.deals{
+    width: $desktop-content;
+    margin: 0 auto;
+    display: flex;
+}
+.deals__list{
+    padding: 0px;
+    @include flex-sb-ac;
+    margin-top: 63px;
+    flex-wrap: wrap;
+}
+.deals__list-item{
+    @include flex-ac;
+    width: 360px;
+    height: 260px;
+    justify-content: center;
+}
+.deals__list-item:first-child{
+    background: url(/img/bgPhoto/for_women.jpg);
+}
+.deals__list-item:nth-child(2){
+    background: url(/img/bgPhoto/for_men.jpg);
+}
+.deals__list-item:nth-child(3){
+    background: url(/img/bgPhoto/for_kids.jpg);
+}
+.deals__list-item:nth-child(4){
+    background: url(/img/bgPhoto/accessories.jpg);
+    width: 100%;
+    margin-top: 30px;
+}
+.deals__overlay{
+    @include flex-ac;    
+    width: 100%;
+    height: 100%;
+    background: rgba(33, 22, 22, 0.7);
+}
+.deals__overlay-text:nth-child(2n-1){
+    color: $white;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+.deals__overlay-text:nth-child(2n){
+    color: $pink;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;    
+}

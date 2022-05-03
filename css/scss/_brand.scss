@@ -1,0 +1,40 @@
+.brand{
+    padding-top: 75px;
+    height: 764px;
+    @include flex-sb-ac;
+    width: $desktop-width;
+}
+.brand__image{
+    width: 50%;
+}
+.brand__title{
+    width: 50%;
+    height: 100%;
+    background-color: #F1E4E6;
+    margin: 0;
+    
+}
+.brand__title-text1{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+    width: 377px;
+    text-align: left;
+    border-left: 12px solid #F16D7F;
+    margin-left: 64px;
+    margin-top: 45%;
+    padding-left: 16px;
+}
+.brand__title-text2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-transform: uppercase;
+    width: 377px;
+    text-align: left;
+    border-left: 12px solid #F16D7F;
+    margin: 0 0 0 64px;
+    padding-left: 16px;
+   
+}

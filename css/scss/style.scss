@@ -1,0 +1,79 @@
+@import 'variables';
+@import 'mixin'; 
+/* General */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    width: 1600px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #E5E5E5;
+}
+.main-header{
+    display: none;
+}
+section, header, footer, nav, h1, h2{
+    margin: 0 auto;
+    padding: 0;
+}
+.margin230{
+    margin: 0 230px 0 230px;
+}
+button{
+    padding: 0;
+    border: none;
+    background: none;
+}
+a{
+    text-decoration: none;
+    color: #222222;
+}
+ul{
+    list-style: none;    
+}
+.widthFull{
+    width: 1600px;
+}
+.widthContent{
+    width: 1140px;
+    margin: 0 auto;
+}
+.addPadding{
+    padding: 0 230px 0 230px;
+}
+.notDisplay{
+    display: none;
+}
+.hidden{
+    visibility: hidden;
+}
+.flexDefault{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexColumn{
+    flex-direction: column;
+    justify-content: center;
+}
+.colorPink{
+    color: #F16D7F;
+}
+.italic {
+    font-style: italic;
+}
+
+@import 'header';
+@import 'navigation';
+.header:hover .nav{
+    visibility: visible;
+}
+@import 'brand';
+@import 'deals';
+@import 'featured';
+@import 'services';
+@import 'footer';

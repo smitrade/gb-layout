@@ -1,0 +1,111 @@
+.footer__subscribe{
+    width: $desktop-width;
+    height: 448px;
+    background: linear-gradient(rgba(244, 244, 244, 0.7)), url(/img/bgPhoto/subscribe.jpg);
+}
+.footer__subscribe-overlay {
+    width: inherit;
+    height: inherit;
+}
+.footer__subscribe-list{
+    @include w-content;
+    padding: 0;
+    bottom: none;
+    @include flex-sb-ac;
+    height: inherit;
+}
+.footer__subscribe-item:first-child{
+    width: 360px;
+}
+.footer__subscribe-item:nth-child(2){
+    width: 557px;
+}
+.footer__subscribe-item-quote{
+    font-size: 20px;
+    line-height: 24px;
+    color: #222224;
+    margin-top: 30px;    
+}
+.footer__subscribe-item-text:first-child{
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 37.73px;
+}
+.footer__subscribe-item-text:nth-child(2){
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30.01px;
+    margin-bottom: 30px;
+}
+.footer__subscribe-button{
+    height: 49px;
+    width: 323px;
+    margin: 0 auto;
+    display: inline-flex;
+}
+.footer__subscribe-button-text{
+    width: 223px;
+    height: 47px;
+    padding-left: 26px;
+    color: #222224;
+    border: 1px solid $white;
+    &:focus{
+        outline: none;
+    }
+}
+.footer__subscribe-button-send{
+    width: 100px;
+    border: 1px solid #F26376;
+    &:hover{
+        color: #F26376;
+        border: 1px solid #F26376;
+        background-color: #FFFFFF;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+.footer__subscribe-button-send{
+    border: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: $white;
+    background-color: #F16D7F;
+}
+.footer__subscribe-button-text{
+    border: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.footer__social{
+    @include w-content-padding;
+    @include flex-sb-ac;
+    background-color: $black;
+}
+.footer__social-text{
+    color: $white;
+    font-size: 16px;
+    line-height: 79px;
+}
+.footer__social-list{
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 148px;
+}
+.footer__social-item{
+    width: 31.45px;
+    height: 32px;
+    background-color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer__social-item:hover{
+    background-color: #F16D7F;
+}
+.footer__social-item:hover .footer__social-svg{
+    fill: #FFFFFF;
+}
